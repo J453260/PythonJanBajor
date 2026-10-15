@@ -1,0 +1,6 @@
+slowo = "word"
+for i, znak in enumerate(slowo):
+    if i == len(slowo) - 1:
+        print(znak, end="")
+    else:
+        print(znak + "_", end="")
