@@ -7,7 +7,12 @@ X = "abc" ; X.append("d")
 L = list(map(pow, range(8)))
 """
 
-# Średniki i przypisanie 3 liczb do 2 zmiennych
+# Przypisanie 3 liczb do 2 zmiennych
+# X[1] = 4 jest niepoprawne
+# X[3] = 4 wychodzi poza zakres
+# L = list(map(pow, range(8))), pow potrzebuje 2 argumentów
+
+# Poprawiony kod:
 
 L = [3, 5, 4]
 L.sort()
